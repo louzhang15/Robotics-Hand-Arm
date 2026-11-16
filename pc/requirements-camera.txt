@@ -1,0 +1,5 @@
+-r requirements.txt
+# Tasks API and options import smoke-tested together on Windows/Python 3.10.
+mediapipe==1.2.3
+# Use one cv2 provider; MediaPipe also depends on the contrib distribution.
+opencv-contrib-python==5.0.0.93

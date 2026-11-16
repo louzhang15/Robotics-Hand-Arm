@@ -1,0 +1,9 @@
+.tools/
+.venv/
+__pycache__/
+*.pyc
+build/
+runs/
+tmp/
+models/*.task
+output/*.zip
