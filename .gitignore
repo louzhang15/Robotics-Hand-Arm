@@ -8,3 +8,4 @@ tmp/
 models/*.task
 output/*.zip
 graphify-out/
+docs/graph/cache/
