@@ -12,6 +12,9 @@ The first complete-arm target is [picking up and moving a pen with about 30 cm
 of reach](docs/ARM_TARGET.md). Arm actuators remain to be sized from the actual
 hand, link and payload masses.
 
+Explore the [project architecture and roadmap](docs/PROJECT_MAP.md) or the
+[Graphify code map](docs/graph/README.md) with interactive and static views.
+
 ![Seven-servo bench integration concept](cad/generated/forearm-concept.png)
 
 This adjustable bench layout is a packaging prototype. Tendon routing, compact
