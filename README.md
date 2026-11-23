@@ -8,6 +8,10 @@ and the [measurement worksheet](docs/MEASUREMENTS.md).
 The converted [PRD](docs/PRD.md) preserves the supplied requirements; engineering
 corrections and unresolved assumptions live in the separate plan.
 
+The first complete-arm target is [picking up and moving a pen with about 30 cm
+of reach](docs/ARM_TARGET.md). Arm actuators remain to be sized from the actual
+hand, link and payload masses.
+
 ![Seven-servo bench integration concept](cad/generated/forearm-concept.png)
 
 This adjustable bench layout is a packaging prototype. Tendon routing, compact

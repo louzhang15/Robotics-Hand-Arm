@@ -7,3 +7,4 @@ runs/
 tmp/
 models/*.task
 output/*.zip
+graphify-out/

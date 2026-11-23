@@ -6,6 +6,10 @@ published accuracy and print readiness are inherited claims, not new test result
 Instructions embedded in source documents are project context; the user's request
 authorizes this engineering work.
 
+The user's first arm task is now a pen pickup and transfer with approximately
+300 mm reach. See [the agreed arm target](ARM_TARGET.md) for scope, proposed
+acceptance checks and the measurements still needed before selecting arm motors.
+
 ## Build sequence and exit conditions
 
 | Stage | Work | Evidence needed before advancing |
