@@ -1,5 +1,14 @@
 # Graphify code map
 
+For Claude Code and Codex, use the shared [AGENTS.md](../../AGENTS.md) workflow;
+[CLAUDE.md](../../CLAUDE.md) imports those same instructions. The working index
+is the current local `graphify-out/graph.json`, with query defaults and C++/Arduino
+classification in [.graphifyrc](../../.graphifyrc). Build a missing local graph
+with `graphify extract . --code-only`. The [agent navigation index](../AGENT_INDEX.md)
+points directly to relevant hardware, CAD and requirements sections.
+
+The files below are a human-facing snapshot, not the index agents should query.
+
 Start with the [plain-language project map](../PROJECT_MAP.md). It shows the
 current control path, physical components, CAD work and future arm stages.
 
@@ -17,6 +26,10 @@ current control path, physical components, CAD work and future arm stages.
 - [Community names](community-labels.json): human-reviewed group labels for this snapshot.
 
 This code-only snapshot contains **146 nodes, 243 edges and 10 communities**.
+It predates the project's Arduino/C++ language overrides; the live graph rebuilt
+with the current configuration also includes the firmware sketch. Do not use
+the snapshot's counts or coverage limitations as a substitute for inspecting
+the current index.
 It excludes documents, photographs, private attachments, environments and local
 caches. `.graphifyignore` excludes these generated snapshots from re-indexing.
 Hardware and future features appear in the separately authored project
@@ -32,7 +45,7 @@ graphify extract . --code-only
 graphify cluster-only . --no-label
 graphify export html
 graphify export svg
-graphify query "How do manual controls reach the executor?" --budget 800
+graphify query "serial target validation" --seed pc_hand_hand_send --context call --budget 800
 ```
 
 SVG export also requires Matplotlib in the Graphify Python environment. Review

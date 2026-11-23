@@ -1,0 +1,6 @@
+# Prefer small, focused navigation results over broad context dumps.
+query_budget=800
+query_depth=1
+# Arduino sketches and the executor header are C++, not unclassified text/C.
+language.ino=cpp
+language.h=cpp

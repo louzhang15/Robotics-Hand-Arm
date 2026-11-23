@@ -14,6 +14,8 @@ hand, link and payload masses.
 
 Explore the [project architecture and roadmap](docs/PROJECT_MAP.md) or the
 [Graphify code map](docs/graph/README.md) with interactive and static views.
+Claude Code and Codex share [graph-first navigation rules](AGENTS.md) and a
+compact [build-document index](docs/AGENT_INDEX.md) to load only relevant context.
 
 ![Seven-servo bench integration concept](cad/generated/forearm-concept.png)
 
